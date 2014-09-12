@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Basic Image Carousel Example</title>
+
+	<link rel="stylesheet" href="css/jquery_basic_carousel.css">
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="js/jquery_basic_carousel.js"></script>
+</head>
+<body>
+	<div id="image_carousel_test">
+	  <div class="image-wrapper">
+	    <img src="http://lorempixel.com/400/200/sports/1/" alt="Train" width="320" height="208">
+	    <img src="http://lorempixel.com/400/200/sports/2/" alt="Car" width="320" height="208">
+	    <img src="http://lorempixel.com/400/200/sports/3/" alt="Bike" width="320" height="208">
+	    <img src="http://lorempixel.com/400/200/sports/4/" alt="House" width="320" height="208">
+	    <img src="http://lorempixel.com/400/200/sports/5/" alt="House" width="320" height="208">
+	    <img src="http://lorempixel.com/400/200/sports/6/" alt="House" width="320" height="208">
+	  </div>
+	</div>
+
+	<script>
+		jQuery("#image_carousel_test").basicCarousel();
+	</script>
+</body>
+</html>

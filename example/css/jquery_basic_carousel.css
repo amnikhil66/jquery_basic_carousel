@@ -1,0 +1,40 @@
+.image-wrapper{
+	position: relative;
+	overflow: hidden;
+	margin: 10px auto;
+	border: 2px solid #999;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+
+.image-wrapper > img{
+	position: absolute;
+	top: 0;
+}
+
+.image-wrapper > img:first-child{
+	left: 0;
+}
+
+ul.marker-wrapper{	
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul.marker-wrapper > li{
+	display: inline-block;
+	list-style: none;
+	height: 10px;
+	width: 10px;
+	border: 2px solid #999;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+ul.marker-wrapper > li.active-marker {
+	background-color: #999;
+}
