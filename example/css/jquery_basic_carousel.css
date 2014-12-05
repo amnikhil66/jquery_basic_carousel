@@ -35,6 +35,10 @@ ul.marker-wrapper > li{
 	-o-border-radius: 20px;
 }
 
+ul.marker-wrapper > li:not(.active-marker){
+	cursor: pointer;
+}
+
 ul.marker-wrapper > li.active-marker {
 	background-color: #999;
 }
